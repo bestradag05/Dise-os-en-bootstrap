@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>BienesRaices</title>
+</head>
+<body>
+    <header class="header">
+            <div class="barra bg-success">
+                    <div class="container">
+                            <nav class="navbar bg-transparent  navbar-dark navbar-expand-lg">
+                                <a href="#" class="navbar-brand text-uppercase" >RealState<span>GDL</span></a>
+                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menuPrincipal"
+                                aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar
+                                Navegación">
+                                <span class="navbar-toggler-icon"></span>
+                                </button>
+                            <div class="collapse navbar-collapse" id="menuPrincipal">
+                                <ul class="navbar-nav w-100 justify-content-end">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Inicio</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Nosotros</a>
+                                    </li> 
+                                    <li class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" id="anunciosDropdown"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    
+                                            Anuncios
+                                        </a>
+                                        <di class="dropdown-menu" aria-labelledby="#anunciosDropdown">
+                                            <a href="#" class="dropdown-item">Casa 1</a>
+                                            <a href="#" class="dropdown-item">Casa 2</a>
+                                            <a href="#" class="dropdown-item">Casa 3</a>
+                                        </di>
+                                        
+                                    </li> 
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Contacto</a>
+                                    </li> 
+                                </ul>
+                            </div>
+
+                            </nav>
+                    </div><!--Container-->
+            </div><!--Barra-->
+        
+    <div  id="slider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner"> 
+            <div class="carousel-item active">
+               <img src="img/slide1.jpg" alt="anuncio 1" class="d-block w-100"> 
+               <div class="container">
+                   <div class="row justify-content-between">
+                       <div class="col-md-6">
+                        <div class="carousel-caption d-none d-md-block text-left">
+                            <h3 >Casa de lujo en zona exclusiva
+                                en GDL
+                            </h3>
+                        </div>
+                       </div>
+                       <div class="col-md-4">
+                        <div class="carousel-caption d-none d-md-block bloque-info ">
+                            <h5 class="bg-success py-3 text-uppercase">En venta</h5>
+                            <p>$125,000</p>
+                            <a href="#" class="btn btn-warning text-uppercase d-block">Más Información</a>
+                        </div>
+                       </div>
+
+                   </div>
+               </div> 
+            </div>
+            <div class="carousel-item ">
+                <img src="img/slide2.jpg" alt="anuncio 1" class="d-block w-100">  
+
+                <!--Agregar caption para la informacion del slider-->
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="display-4">Encuentra Propiedades de Lujo</h2>
+                </div>
+             </div>
+           
+        </div>
+        <a href="#slider" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a href="#slider" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+</header>
+
+<section class="container sobre-nosotros mt-5">
+    <h2 class="text-center mb-5">Más sobre Nosotros</h2>
+
+    <div class="row">
+        <div class="col-sm-4 text-center">
+            <img src="img/icono_seguridad.jpg" alt="icono" class="img-fluid mb-4">
+            <h3 class="mb-3 text-uppercase">Seguridad</h3>
+            <p>Sed auctor felis ac purus gravida facilisis. Vivamus vulputate dui ut odio 
+                sagittis gravida.Vivamus vulputate dui ut odio sagittis gravida.</p>
+        </div>
+        <div class="col-sm-4 text-center">
+            <img src="img/icono_precio.jpg" alt="icono" class="img-fluid mb-4">
+            <h3 class="mb-3 text-uppercase">El Mejor Precio</h3>
+            <p>Sed auctor felis ac purus gravida facilisis. Vivamus vulputate dui ut odio 
+                sagittis gravida.Vivamus vulputate dui ut odio sagittis gravida.</p>
+        </div>
+        <div class="col-sm-4 text-center">
+            <img src="img/icono_disponible.jpg" alt="icono" class="img-fluid mb-4">
+            <h3 class="mb-3 text-uppercase">disponibilidad Inmediata</h3>
+            <p>Sed auctor felis ac purus gravida facilisis. Vivamus vulputate dui ut odio 
+                sagittis gravida.Vivamus vulputate dui ut odio sagittis gravida.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container anuncios mt-5">
+    <h2 class=" text-center mb-5">Casas y Depas en venta</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="img/anuncio1.jpg" alt="anuncio casa en venta">
+              <div class="card-body">
+                <h3 class="card-title">Casa en Zona de Lujo</h3>
+                <p class="card-text">ivamus vulputate dui ut odio sagittis gravida.</p>
+                <p class="card-precio">$3,000,000</p>
+                <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                    <li><img src="img/icono_wc.png" >3</li>
+                    <li><img src="img/icono_cuartos.png" >3</li>
+                    <li><img src="img/icono_estacionamiento.png" >2</li>
+                </ul>
+                <a href="#" class="btn btn-warning d-block py-2 text-uppercase"> Ver Propiedad</a>
+              </div><!--card-body-->
+            </div><!--card-->
+        </div><!--col-md-4-->
+
+        <div class="col-md-4">
+            <div class="card ">
+              <img class="card-img-top" src="img/anuncio2.jpg" alt="anuncio casa en venta">
+              <div class="card-body">
+                <h3 class="card-title">Casa en Zona de Lujo</h3>
+                <p class="card-text">ivamus vulputate dui ut odio sagittis gravida.</p>
+                <p class="card-precio">$3,000,000</p>
+                <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                    <li><img src="img/icono_wc.png" >3</li>
+                    <li><img src="img/icono_cuartos.png" >3</li>
+                    <li><img src="img/icono_estacionamiento.png" >2</li>
+                </ul>
+                <a href="#" class="btn btn-warning d-block py-2 text-uppercase"> Ver Propiedad</a>
+              </div><!--card-body-->
+            </div><!--card-->
+        </div><!--col-md-4-->
+
+        <div class="col-md-4">
+            <div class="card ">
+              <img class="card-img-top" src="img/anuncio3.jpg" alt="anuncio casa en venta">
+              <div class="card-body">
+                <h3 class="card-title">Casa en Zona de Lujo</h3>
+                <p class="card-text">ivamus vulputate dui ut odio sagittis gravida.</p>
+                <p class="card-precio">$3,000,000</p>
+                <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                    <li><img src="img/icono_wc.png" >3</li>
+                    <li><img src="img/icono_cuartos.png" >3</li>
+                    <li><img src="img/icono_estacionamiento.png" >2</li>
+                </ul>
+                <a href="#" class="btn btn-warning d-block py-2 text-uppercase"> Ver Propiedad</a>
+              </div><!--card-body-->
+            </div><!--card-->
+        </div><!--col-md-4-->
+
+        <div class="col-md-4">
+            <div class="card ">
+              <img class="card-img-top" src="img/anuncio4.jpg" alt="anuncio casa en venta">
+              <div class="card-body">
+                <h3 class="card-title">Casa en Zona de Lujo</h3>
+                <p class="card-text">ivamus vulputate dui ut odio sagittis gravida.</p>
+                <p class="card-precio">$3,000,000</p>
+                <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                    <li><img src="img/icono_wc.png" >3</li>
+                    <li><img src="img/icono_cuartos.png" >3</li>
+                    <li><img src="img/icono_estacionamiento.png" >2</li>
+                </ul>
+                <a href="#" class="btn btn-warning d-block py-2 text-uppercase"> Ver Propiedad</a>
+              </div><!--card-body-->
+            </div><!--card-->
+        </div><!--col-md-4-->
+
+        <div class="col-md-4">
+            <div class="card ">
+              <img class="card-img-top" src="img/anuncio5.jpg" alt="anuncio casa en venta">
+              <div class="card-body">
+                <h3 class="card-title">Casa en Zona de Lujo</h3>
+                <p class="card-text">ivamus vulputate dui ut odio sagittis gravida.</p>
+                <p class="card-precio">$3,000,000</p>
+                <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                    <li><img src="img/icono_wc.png" >3</li>
+                    <li><img src="img/icono_cuartos.png" >3</li>
+                    <li><img src="img/icono_estacionamiento.png" >2</li>
+                </ul>
+                <a href="#" class="btn btn-warning d-block py-2 text-uppercase"> Ver Propiedad</a>
+              </div><!--card-body-->
+            </div><!--card-->
+        </div><!--col-md-4-->
+
+        <div class="col-md-4">
+            <div class="card ">
+              <img class="card-img-top" src="img/anuncio6.jpg" alt="anuncio casa en venta">
+              <div class="card-body">
+                <h3 class="card-title">Casa en Zona de Lujo</h3>
+                <p class="card-text">ivamus vulputate dui ut odio sagittis gravida.</p>
+                <p class="card-precio">$3,000,000</p>
+                <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                    <li><img src="img/icono_wc.png" >3</li>
+                    <li><img src="img/icono_cuartos.png" >3</li>
+                    <li><img src="img/icono_estacionamiento.png" >2</li>
+                </ul>
+                <a href="#" class="btn btn-warning d-block py-2 text-uppercase"> Ver Propiedad</a>
+              </div><!--card-body-->
+            </div><!--card-->
+        </div><!--col-md-4-->
+    </div>
+</section>
+
+<section class="encuentra mt-5">
+    <div class="container">
+        <div class="row text-light align-items-center">
+            <div class="col">
+                <h3 >Encuentra la casa de tus sueños</h3>
+                <p>Llena el formulario de contacto y un asesor se pondrá en contacto a la brevedad.</p>
+            <a href="#" class="btn btn-warning text-uppercase py-2 mt-4">Contactános</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8">
+            <h2 class="text-center mb-5">Nuestro Blog</h2>
+            <div class="row entrada mb-4">
+                <div class="col-md-5">
+                    <img src="img/blog1.jpg" alt="entrada blog" class="img-fluid">
+                </div>
+                <div class="col-md-7">
+                    <h3 class="my-2">Terraza en el techo de tu casa.</h3>
+                    <p class="meta">
+                        Escrito el: <span>20/10/2018</span> por: <span>Admin</span>
+                    </p>
+                    <p>Mauris malesuada arcu nec felis fermentum tempor.
+                    Sed dignissim facilisis purus, quis ornare velit lobortis vitae. 
+                    In nibh augue, tincidunt nec vulputate sed,</p>
+                    <a href="#" class="btn btn-success py-2 px-5">Leer Más</a>
+                </div>
+            </div><!--entrada.row-->
+            <div class="row entrada mb-4">
+                <div class="col-md-5">
+                    <img src="img/blog2.jpg" alt="entrada blog" class="img-fluid">
+                </div>
+                <div class="col-md-7">
+                    <h3 class="my-2">Guía para decorar tu casa.</h3>
+                    <p class="meta">
+                        Escrito el: <span>20/10/2018</span> por: <span>Admin</span>
+                    </p>
+                    <p>Mauris malesuada arcu nec felis fermentum tempor.
+                    Sed dignissim facilisis purus, quis ornare velit lobortis vitae. 
+                    In nibh augue, tincidunt nec vulputate sed,</p>
+                    <a href="#" class="btn btn-success py-2 px-5">Leer Más</a>
+                </div>
+            </div><!--entrada.row-->
+        </div>
+        <div class="col-md-4">
+            <h2 class="text-center mb-5">Testimoniales</h2>
+            <div class="testimoniales p-5">
+                <div id="testimoniales" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <p class="testimonial-texto">
+                            Vestibulum et sem sem. Pellentesque habitant morbi tristique 
+                            senectus et netus et malesuadatum tristique senectus”.
+
+                            <span class="d-block text-right mt-4">- Persona 1</span>
+                        </p>
+                        </div><!--carousel-item-->
+
+                        <div class="carousel-item ">
+                            <p class="testimonial-texto">
+                                Vestibulum et sem sem. Pellentesque habitant morbi tristique 
+                                senectus et netus et malesuadatum tristique senectus”.
+    
+                                <span class="d-block text-right mt-4">- Persona 2</span>
+                            </p>
+                        </div><!--carousel-item-->
+
+                        <div class="carousel-item ">
+                            <p class="testimonial-texto">
+                                Vestibulum et sem sem. Pellentesque habitant morbi tristique 
+                                senectus et netus et malesuadatum tristique senectus”.
+    
+                                <span class="d-block text-right mt-4">- Persona 3</span>
+                            </p>
+                        </div><!--carousel-item-->
+                    </div>
+                </div>
+            </div><!--testimoniales-->
+        </div><!--cold-md-4-->
+    </div><!--.row-->
+</div><!--container-->
+
+<footer class="footer bg-dark mt-5 py-4">
+    <div class="container ">
+        <div class="row line-items-center">
+            <ul class="nav col flex-column flex-md-row text-center">
+                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Anuncio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+            </ul>
+            <p class="copyright text-light col-md-4 text-center text-md-right m-0 mt-4
+             mt-md-0">2018.Derechos reservados</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+   
+</body>
+</html>

@@ -1,0 +1,290 @@
+:root {
+    --verde: #00b30c;
+    --gris1: #353537;
+    --gris2: #eaeaeb;
+    --gris3: #777777;
+}
+
+h1,h2,h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+.titulo
+{
+    font-weight: 700!important;
+}
+
+/**Scroll **/
+
+.header-scroll .nav-link{
+    color: #777!important;
+}
+
+.header-scroll .btn-outline-success:hover
+{
+    color: #fff!important;
+}
+
+.header-scroll{
+    opacity: 0;
+    margin-top: -300px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1pz solid rgba(0, 0, 0, .1);
+    transition: all .5s ease-in-out;
+}
+
+.header-scroll.activo
+{
+    margin-top: 0;
+    opacity: 1;
+    
+}
+
+
+/**Header**/
+
+.header
+{
+    background-image: url(../img/hero.jpg);
+    min-height: 30rem;
+    background-size: cover;
+}
+
+.header .nav-link,
+.header .nav-link:hover{
+    color: white;
+}
+
+.header .btn-outline-light:hover{
+color: #000!important;
+}
+
+.buscador 
+{
+    min-height: 25rem;
+}
+
+.btn-success 
+{
+    background-color: #00b30c!important;
+}
+
+/** Categorias **/
+
+.categoria 
+{
+    padding-bottom: 100px;
+    overflow: hidden ;
+    height: 300px;
+}
+
+.categoria h3::before{
+    content: '';
+    display: block;
+    margin: 0 auto 20px auto;
+    height: 1px;
+    width: 60px;
+    background-color: #00b30c;
+
+}
+
+.categoria:hover h3::before
+{
+    width: 180px;
+}
+
+.categoria h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.categoria p{
+    color: #999999;
+    opacity: 0;
+    padding-top: 30px;
+    transition: all .3s ease;
+    
+}
+
+.categoria:hover p{
+    opacity: 1;
+    padding-top: 10px;
+}
+ 
+/** PRO **/
+
+.bg-dark
+{
+    background-color: #353537!important;
+}
+
+.nuevo-pro .row
+{
+    height: 25rem;
+}
+
+/** Primeros pasos (flexbox) **/
+
+.primeros-pasos .descripcion
+{
+    flex: 1 0 calc(50% - 1rem);
+}
+
+@media (min-width: 768px)
+{
+        .primeros-pasos .descripcion
+            {
+                flex: 1 0 calc(20% - 1rem);;
+            }
+
+}
+
+.primeros-pasos .logotipo
+
+{
+    background-image: url(../img/servicio1.png);
+    
+}
+
+.primeros-pasos .social-media
+
+{
+    background-image: url(../img/servicio2.png);
+    
+}
+
+.primeros-pasos .audio
+
+{
+    background-image: url(../img/servicio3.png);
+   
+}
+
+.primeros-pasos .traducciones
+
+{
+    background-image: url(../img/servicio4.png);
+   
+}
+
+.primeros-pasos .wordpress
+
+{
+    background-image: url(../img/servicio5.png);
+   
+}
+
+.primeros-pasos .descripcion{
+    height: 20rem;
+    background-size: cover;
+    margin-right: 1rem;
+}
+
+/** beneficios **/
+
+.beneficios .row{
+    min-height: 20rem;
+}
+
+.beneficio h3{
+    font-weight: 300;
+}
+
+.beneficio span{
+    font-weight: 700;
+}
+
+/** testimoniales **/
+
+.testimoniales 
+{
+    background-color: #eaeaeb;
+}
+
+.testimoniales .carousel 
+{
+    background-color: #ffffff;
+}
+
+.testimoniales .carousel-item h3{
+    font-weight: 700;
+}
+
+.testimoniales .carousel-item blockquote
+{
+    font-size: 1.8rem;
+    color: #676767;
+    font-style: italic;
+
+}
+
+.testimoniales .carousel-item p{
+    font-size: .8rem;
+}
+
+.guias .card-title
+{
+    font-size: 1.2rem;
+}
+
+/** Footer **/
+
+.footer
+{
+    border-top: 1px solid #e1e1eb;
+}
+
+.footer h3{
+    color: #777;
+    font-size: 1.2rem;
+}
+
+.footer .nav-link{
+    color: #777!important;
+    padding-bottom: .5rem 0;
+    font-size: 1rem;
+}
+
+.footer .container-fluid
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .widget
+{
+    justify-content: space-between;
+    flex: 0 0 calc(50% - 1rem);
+    padding: 1rem;
+}
+
+@media (min-width: 768px)
+{
+    .footer .widget
+{
+    justify-content: space-between;
+    flex: 0 0 calc(33.3% - 1rem);
+    padding: 1rem;
+}
+
+}
+
+@media (min-width: 992px)
+{
+    .footer .widget
+{
+    justify-content: space-between;
+    flex: 0 0 calc(20% - 1rem);
+    padding: 1rem;
+}
+
+}
